@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#status {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.videos {
+  display: flex;
+  gap: 10px;
+}
+
+video {
+  width: 300px;
+  height: 220px;
+  background: black;
+  border-radius: 10px;
+  border: 2px solid white;
+}
